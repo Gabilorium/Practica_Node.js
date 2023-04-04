@@ -1,6 +1,8 @@
 import { suma, resta, dividir, multiplicar } from './src/modules/matematica.js'
 
 
+console.clear();
+Ejemplo()
 
 function Ejemplo()
 {

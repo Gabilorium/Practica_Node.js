@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node Index.js",
-    "otro":"node Otro.js && node Index.js",
+    "otro":"node ej01.js && node ej02.js",
+    "Ej01":"node ej01.js",
+    "Ej02":"node ej02.js",
+    "Ej03":"node ej03.js",
+    "Ej04":"node ej04.js",
+    "Ej05":"node ej05.js",
+    "Ej06":"node ej06.js",
+    "Ej07":"node ej07.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gabriel Chediex Viner",
