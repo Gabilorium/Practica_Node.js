@@ -5,9 +5,9 @@ function SepararUrl(url)
 {
     const separar = new URL(url)
     let obj ={
-        "Host: ":separar.host,
-        "Pathname: ":separar.pathname,
-        "Parametros: ": separar.searchParams
+        Host: separar.host,
+        Pathname: separar.pathname,
+        Parametros:  separar.searchParams
     }
     return obj
 }

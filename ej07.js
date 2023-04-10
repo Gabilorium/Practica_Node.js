@@ -4,7 +4,7 @@ import { getCountry } from 'currency-map-country';
 let monedaDelPais, pais, abrPais; 
 
 try{
-    pais = "Argentina"
+    pais = 'Argentina';
     monedaDelPais = obtenerMoneda(pais); 
     abrPais = obtenerAbrebiacion(pais)
     console.log(`La abrebiación del país ${pais} es: ${abrPais} y su moneda es: ${monedaDelPais}`); 
